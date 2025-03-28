@@ -64,7 +64,7 @@ def send_discord_alert(earthquake_info, webhook_url):
         print(f"Error sending Discord alert: {e}")
 
 if __name__ == "__main__":
-    DISCORD_WEBHOOK_URL = "YOUR_DISCORD_WEBHOOK_URL"
+    DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1355214995771621457/PSC4Yv3mAhxwcTUvkkYDB8nQp7HEItkZaZp9nA4t_ZZ-NC3_sjjq-JxTGAusd-BmUSFn"
     earthquake_data = get_earthquake_data()
     if earthquake_data:
         for earthquake in earthquake_data:
